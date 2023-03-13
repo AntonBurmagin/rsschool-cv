@@ -21,16 +21,30 @@ Discord: @Anton187#0343
 | 15.12.2017 - 27.09.2022| 01.09.2012 – 30.06.2016|
 | Management of most valuable clients of development and building manufacturers |  Industrial management|
 
-### <font color = 7777> **Special courses:** </font>
-> C++ developer, Skillbox\
-2021-2022
-
-### <font color = 7777> **Skills:** </font>
-> Visual Studio, C++, MySQL, Git, Qt
+ <font size = 4 color = 7777> **Special courses:** </font> |  <font size = 4 color = 7777> **Skills:** </font>
+|---|---:|
+|C++ developer, Skillbox, 2021-2022 | Visual Studio, C++, MySQL, Git, Qt |
 
 ### <font color = 7740> **Languages:** </font>
 > English - B1/B2\
 Russian - native
+
+### <font size = 4 color = 8855> **Projects:** </font>
+> [CSS Bayan:](https://github.com/AntonBurmagin/cssBayan "")
+
+### <font size = 4 color = 8855> **Code example** </font>
+```
+#include <cmath>
+
+int FindOutlier(std::vector<int> arr) {
+    int x = (arr[0] % 2 == 0 ? (arr[1] % 2 == 0 ? 1 : (arr[2] % 2 == 0 ? 1 : 0))
+        : (arr[1] % 2 == 0 ? (arr[2] % 2 == 0 ? 1 : 0) : 0));
+    for (auto i : arr) {
+        if (fabs(i % 2) == x)
+            return i;
+    }
+}
+```
 
 
 
