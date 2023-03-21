@@ -45,8 +45,3 @@ int FindOutlier(std::vector<int> arr) {
     }
 }
 ```
-
-
-
-
-
