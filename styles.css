@@ -1,0 +1,29 @@
+
+body header {
+    font: italic bold 100px/1.2 Arial;
+    color: #777;
+    text-align: center;
+    margin: 100px;
+}
+
+ p {
+    font: italic bold 50px/1.2 Arial;
+    color: #f0f;
+    text-align: center;
+    animation: p-anim 2s infinite;
+}
+
+@keyframes p-anim {
+    0% {
+        font-size: 20px;
+        color: #fff;
+    }
+    50% {
+        color: #f9f;
+    }
+    100% {
+        font-size: 50px;
+        color: #f0f;
+    }
+}
+
