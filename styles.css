@@ -1,0 +1,15 @@
+
+body header {
+    font: italic bold 100px/1.2 Arial;
+    color: #777;
+    text-align: center;
+    margin: 100px;
+}
+
+ p {
+    font: italic bold 50px/1.2 Arial;
+    color: #f0f;
+    text-align: center;
+    animation: p-anim 2s infinite;
+}
+
